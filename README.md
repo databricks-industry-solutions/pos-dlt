@@ -43,9 +43,10 @@ That said, DLT does provide some features which can simplify the implementation 
 
 The simplification of the logic is a welcome feature of DLT.  Still, DLT, as a new technology, does impose some constraints that have required us to revise some aspects of our code.  First, DLT notebooks must be self-contained, *i.e.* they cannot call other notebooks.  This has required us to copy some configuration logic from *POS 01* into *POS 03*.  Second, DLT does not yet support Azure IOT Hub Event Hub endpoints.  This has required us to reconfigure the streaming dataset reading data from the IOT Hub to leverage that service's Kafka endpoint.  Finally, notebooks defining DLT workflows are not run interactively and instead must be scheduled.  We've introduced an additional notebook, *POS 05*, to address the scheduling aspects for notebooks *POS 03* and *POS 04*.
 
+----------------------
 
 &copy; 2022 Databricks, Inc. All rights reserved. The source in this notebook is provided subject to the [Databricks License](https://databricks.com/db-license-source).  All included or referenced third party libraries are subject to the licenses set forth below.
-----------------------
+
 
 | library                                | description             | license    | source                                              |
 |----------------------------------------|-------------------------|------------|-----------------------------------------------------|
