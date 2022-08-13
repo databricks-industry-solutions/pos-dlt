@@ -147,7 +147,7 @@ inventory_snapshots = (
     .csv(
       inventory_snapshot_files, 
       header=True, 
-      timestampFormat='yyyy-MM-dd HH:mm:ss.SSSXXX', 
+      timestampFormat='yyyy-MM-dd HH:mm:ss', 
       schema=inventory_snapshot_schema
       )
   )
