@@ -61,3 +61,7 @@
 # MAGIC |----------------------------------------|-------------------------|------------|-----------------------------------------------------|
 # MAGIC | azure-iot-device                                     | Microsoft Azure IoT Device Library | MIT    | https://pypi.org/project/azure-iot-device/                       |
 # MAGIC | azure-storage-blob                                | Microsoft Azure Blob Storage Client Library for Python| MIT        | https://pypi.org/project/azure-storage-blob/      |
+
+# COMMAND ----------
+
+
