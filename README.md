@@ -52,3 +52,7 @@ The simplification of the logic is a welcome feature of DLT.  Still, DLT, as a n
 |----------------------------------------|-------------------------|------------|-----------------------------------------------------|
 | azure-iot-device                                     | Microsoft Azure IoT Device Library | MIT    | https://pypi.org/project/azure-iot-device/                       |
 | azure-storage-blob                                | Microsoft Azure Blob Storage Client Library for Python| MIT        | https://pypi.org/project/azure-storage-blob/      |
+
+To run this accelerator, clone this repo into a Databricks workspace. Attach the RUNME notebook to any cluster running a DBR 11.0 or later runtime, and execute the notebook via Run-All. A multi-step-job describing the accelerator pipeline will be created, and the link will be provided. Execute the multi-step-job to see how the pipeline runs.
+
+The job configuration is written in the RUNME notebook in json format. The cost associated with running the accelerator is the user's responsibility.
