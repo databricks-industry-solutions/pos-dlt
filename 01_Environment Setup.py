@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC You may find this series of notebooks at https://github.com/databricks-industry-solutions/pos-dlt. For more information about this solution accelerator, visit https://www.databricks.com/solutions/accelerators/real-time-point-of-sale-analytics.
+
+# COMMAND ----------
+
 # MAGIC %md This notebook provides instructions for setting up the cloud services on which subsequent notebooks depend.  It also captures various configuration settings required by those notebooks. You do not need to run this notebook separately as each notebook in the set calls this notebook to retrieve configuration data. **However**, you should read the environment setup instructions in this notebook carefully and update all configuration values as appropriate.
 # MAGIC 
 # MAGIC **NOTE** For environments with sensitive data, it is advised that you take advantage of the Databricks [secret management](https://docs.databricks.com/security/secrets/index.html) capability to secure these values.

@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC You may find this series of notebooks at https://github.com/databricks-industry-solutions/pos-dlt. For more information about this solution accelerator, visit https://www.databricks.com/solutions/accelerators/real-time-point-of-sale-analytics.
+
+# COMMAND ----------
+
 # MAGIC %md ## Step 1: Schedule the DLT Pipeline
 # MAGIC 
 # MAGIC To run the workflow defined in the *POS 03* and *POS 04* notebooks, we need to schedule them as a [DLT pipeline](https://docs.databricks.com/data-engineering/delta-live-tables/delta-live-tables-ui.html). Using the Jobs UI within the Databricks workspace, we can click on the Delta Live Tables tab and click *Create Pipeline*.</p>

@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %md 
+# MAGIC You may find this series of notebooks at https://github.com/databricks-industry-solutions/pos-dlt. For more information about this solution accelerator, visit https://www.databricks.com/solutions/accelerators/real-time-point-of-sale-analytics.
+
+# COMMAND ----------
+
 # MAGIC %md The purpose of this notebook is to introduce the Point-of-Sale Streaming with Delta Live Tables solution accelerator. 
 
 # COMMAND ----------

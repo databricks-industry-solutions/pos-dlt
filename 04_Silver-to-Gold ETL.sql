@@ -1,4 +1,9 @@
 -- Databricks notebook source
+-- MAGIC %md 
+-- MAGIC You may find this series of notebooks at https://github.com/databricks-industry-solutions/pos-dlt. For more information about this solution accelerator, visit https://www.databricks.com/solutions/accelerators/real-time-point-of-sale-analytics.
+
+-- COMMAND ----------
+
 -- MAGIC %md This notebook was developed to run as part of a DLT pipeline. Details on the scheduling of the DLT jobs are provided in the *POS 05* notebook.
 
 -- COMMAND ----------
