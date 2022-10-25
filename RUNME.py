@@ -124,7 +124,9 @@ job_json = {
 # COMMAND ----------
 
 # DBTITLE 1,Companion job and cluster(s) definition
-NotebookSolutionCompanion().deploy_compute(job_json)
+dbutils.widgets.dropdown("run_job", "False", ["True", "False"])
+run_job = dbutils.widgets.get("run_job") == "True"
+NotebookSolutionCompanion().deploy_compute(job_json, run_job=run_job)
 
 # COMMAND ----------
 
