@@ -18,9 +18,9 @@
 # MAGIC 
 # MAGIC Under *Storage Location*, we specify the storage location where object data and metadata will be placed.  Again, our *POS 01* notebook expects this to be */mnt/pos/dlt_pipeline*. 
 # MAGIC 
-# MAGIC Under *Pipeline Mode*, we specify how the cluster that runs our job will be managed.  If we select *Triggered*, the cluster shuts down with each cycle.  As several of our DLT objects are configured to run continously, we should select *Continous* mode. In our DLT object definitions, we leveraged some throttling techniques to ensure our workflows do not become overwhelmed with data.  Still, there will be some variability in terms of data moving through our pipelines so we might specify a minimum and maximum number of workers within a reasonable range based on our expectations for the data.  Once deployed, we might monitor resource utilization to determine if this range should be adjusted.
+# MAGIC Under *Pipeline Mode*, we specify how the cluster that runs our job will be managed.  If we select *Triggered*, the cluster shuts down with each cycle.  As several of our DLT objects are configured to run continuously, we should select *Continuous* mode. In our DLT object definitions, we leveraged some throttling techniques to ensure our workflows do not become overwhelmed with data.  Still, there will be some variability in terms of data moving through our pipelines so we might specify a minimum and maximum number of workers within a reasonable range based on our expectations for the data.  Once deployed, we might monitor resource utilization to determine if this range should be adjusted.
 # MAGIC 
-# MAGIC **NOTE** Continous jobs will run indefinetly until explicitly stopped.  Please be aware of this as you manage your DLT pipelines.
+# MAGIC **NOTE** Continuous jobs will run indefinitely until explicitly stopped.  Please be aware of this as you manage your DLT pipelines.
 # MAGIC 
 # MAGIC Clicking *Create* we now have defined the jobs for our DLT workflow. And are presented with a UI with which we can monitor our jobs.|
 
@@ -37,9 +37,9 @@
 
 # COMMAND ----------
 
-# MAGIC %md When the job initialy runs, it will run in *Development* mode as indicated at the top of the UI.  In Development mode, any errors will cause the job to be stopped so that they may be corrected. By clicking *Production*, the job is moved into a state where jobs are restarted upon error.
+# MAGIC %md When the job initially runs, it will run in *Development* mode as indicated at the top of the UI.  In Development mode, any errors will cause the job to be stopped so that they may be corrected. By clicking *Production*, the job is moved into a state where jobs are restarted upon error.
 # MAGIC 
-# MAGIC To stop a job, click the *Stop* button at the top of the UI. **If you do not explicitly stop this job, it will run indefinetly.**
+# MAGIC To stop a job, click the *Stop* button at the top of the UI. **If you do not explicitly stop this job, it will run indefinitely.**
 
 # COMMAND ----------
 

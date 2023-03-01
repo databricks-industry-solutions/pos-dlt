@@ -246,7 +246,7 @@ for event in inventory_change:
       
     else: # event date time exceeds a snapshot datetime
       
-      # extract snaphot data for this dt
+      # extract snapshot data for this dt
       snapshot_pd = (
         inventory_snapshots
           .filter(f.expr("store_id={0} AND date_time='{1}'".format(store_id, snapshot_dt)))
